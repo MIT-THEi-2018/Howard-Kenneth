@@ -4,3 +4,5 @@ https://developer.hotelbeds.com/bookingapi - Requires another account
 https://www.homeaway.com/platform/developers - Home short-term rental API
 --------------------------------------------------------------------------------
 https://jikan.moe/ - MyAnimeList API
+https://github.com/jikan-me/jikanpy.git - py wrapper for JIKAN
+https://jikan.moe/docs - JIKAN DOC
