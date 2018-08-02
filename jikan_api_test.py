@@ -15,8 +15,10 @@ mushishi_with_characters_and_staff = jikan.anime(457, extension='characters_staf
 # pprint.pprint(mushishi_with_characters_and_staff)
 
 overlord = jikan.anime(37675)
-pprint.pprint(overlord)
+# pprint.pprint(overlord)
 
+season_sum_2018 = jikan.season(year = 2018, season = 'summer')
+pprint.pprint(season_sum_2018)
 # you can also query characters
 # ginko = jikan.character(425)
 
