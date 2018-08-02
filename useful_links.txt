@@ -1,2 +1,6 @@
-https://gist.github.com/rtt/10403467
-https://developer.hotelbeds.com/bookingapi
+https://gist.github.com/rtt/10403467 -  Tinder API DOC 2014
+https://github.com/fbessez/Tinder    -	Tinder API DOC 2018
+https://developer.hotelbeds.com/bookingapi - Requires another account
+https://www.homeaway.com/platform/developers - Home short-term rental API
+--------------------------------------------------------------------------------
+https://jikan.moe/ - MyAnimeList API
