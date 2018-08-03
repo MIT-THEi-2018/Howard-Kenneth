@@ -1,6 +1,10 @@
 from tkinter import *
 #pip install pillow
 from PIL import Image, ImageTk
+import PIL
+import tkinter as tk
+import os
+
 
 class UI:
 	
@@ -28,6 +32,12 @@ class UI:
 
 		self.result = Text(frame, wrap = WORD, font='Helvetica 10 bold')
 		self.result.pack(fill = Y)
+
+		imgfile = Image.open("92325.jpg")
+		img = PhotoImage(imgfile)
+		self.label_img = Label(master, image = img)
+		self.label_img.image = img
+		self.label_img.pack()
 
 	def search(self):
 		anime_id = self.input.get()
