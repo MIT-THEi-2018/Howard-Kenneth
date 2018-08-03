@@ -37,10 +37,6 @@ class UI:
 		self.result = Text(frame, wrap = WORD, font='Helvetica 10 bold')
 		self.result.pack(fill = Y)
 
-		img = PhotoImage(file = "92325.jpg")
-		self.label_img = Label(master, image = img)
-		self.label_img.pack()
-
 	def search(self):
 		char_id = self.input.get()
 		img = jikan_hook.pull_img(char_id)
