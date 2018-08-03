@@ -16,10 +16,10 @@ class UI:
 		frame = Frame(master, bg="#aedb9f")
 		frame.pack()
 
-		self.label1 = Label(frame, text = "---------This App can recommend other Animes that you may like---------", fg = "red", font='Helvetica 13 bold', bg="#aedb9f")
+		self.label1 = Label(frame, text = "---------This App can find images of Anime characters---------", fg = "red", font='Helvetica 13 bold', bg="#aedb9f")
 		self.label1.pack()
 
-		self.label2 = Label(frame, text = "Enter The ID of An Anime You Watch ", font='Helvetica 10 bold', bg="#aedb9f")
+		self.label2 = Label(frame, text = "Enter The ID of the Character ", font='Helvetica 10 bold', bg="#aedb9f")
 		self.label2.pack()
 
 		self.input = Entry(frame, font='Helvetica 8 bold')

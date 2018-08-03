@@ -8,4 +8,4 @@ def pull_img (char_id):
 
 
 
-pprint(pull_img(11))
+# print(pull_img(11))
