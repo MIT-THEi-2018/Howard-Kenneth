@@ -1,10 +1,11 @@
 from jikanpy import Jikan
-import pprint
+from pprint import pprint
 
 jikan = Jikan()
 
 # json of all anime info specified by Jikan docs
 mushishi = jikan.anime(457)
+# pprint.pprint(mushishi)
 
 # same as above, but with extra info
 # (see Jikan docs for information about which endpoints have which extensions)
@@ -16,9 +17,12 @@ mushishi_with_characters_and_staff = jikan.anime(457, extension='characters_staf
 
 overlord = jikan.anime(37675)
 # pprint.pprint(overlord)
+pic_test = jikan.character(extension = 'pictures', id = 11)
+print(pic_test['image'])
+# pprint.pprint(pic_test)
 
 season_sum_2018 = jikan.season(year = 2018, season = 'summer')
-pprint.pprint(season_sum_2018)
+# pprint.pprint(season_sum_2018)
 # you can also query characters
 # ginko = jikan.character(425)
 
