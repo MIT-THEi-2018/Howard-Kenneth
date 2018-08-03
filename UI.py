@@ -35,16 +35,13 @@ class UI:
 		self.result = Text(frame, wrap = WORD, font='Helvetica 10 bold')
 		self.result.pack(fill = Y)
 
-		imgfile = Image.open("92325.jpg")
-		img = PhotoImage(imgfile)
+		img = PhotoImage(file = "92325.jpg")
 		self.label_img = Label(master, image = img)
-		self.label_img.image = img
 		self.label_img.pack()
 
 	def search(self):
 		char_id = self.input.get()
 		img = jikan_hook.pull_img(char_id)
-		
 		self.result.delete(0.0, END)
 		self.result.insert(0.0,img)
 		print(img)
