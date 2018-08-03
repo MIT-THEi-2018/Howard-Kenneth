@@ -6,6 +6,8 @@ import PIL
 import tkinter as tk
 import os
 import jikan_hook
+#install as prereq
+#pip install git+git://github.com/AWConant/jikanpy.git
 
 
 class UI:

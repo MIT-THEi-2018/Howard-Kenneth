@@ -18,7 +18,7 @@ mushishi_with_characters_and_staff = jikan.anime(457, extension='characters_staf
 overlord = jikan.anime(37675)
 # pprint.pprint(overlord)
 pic_test = jikan.character(extension = 'pictures', id = 11)
-print(pic_test['image'])
+pprint(pic_test['image'])
 # pprint.pprint(pic_test)
 
 season_sum_2018 = jikan.season(year = 2018, season = 'summer')
