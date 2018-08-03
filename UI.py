@@ -1,6 +1,7 @@
 from tkinter import *
 #pip install pillow
 from PIL import Image, ImageTk
+import jikan_hook
 
 class UI:
 	
@@ -30,9 +31,13 @@ class UI:
 		self.result.pack(fill = Y)
 
 	def search(self):
-		anime_id = self.input.get()
+		char_id = self.input.get()
+		img = jikan_hook.pull_img(char_id)
+		
 		self.result.delete(0.0, END)
-		self.result.insert(0.0,anime_id)
+		self.result.insert(0.0,img)
+		print(img)
+		#clears old data and outputs new recc data
 
 
 root = Tk()
